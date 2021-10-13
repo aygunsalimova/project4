@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --font: 'Open Sans', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+  }
+
+
+
+.index-bg{
+ width: 100%;
+    position: absolute;
+    justify-content: space-between;   
+
+}
+
+.logo{
+    color: #fff;
+}
+
+.logo, h1, input, button{
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px 0 100px;
+
+}
+
+.container h1{
+    font: 300 52px var(--font);
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;  
+}
+.main input{
+    width: 330px;
+    height: 40px;
+    padding-left: 30px;
+    outline: none;
+}
+
+.main button{
+    width: 120px;
+    height: 40px;
+    background-color: #fd4f32;
+    color:#fff;
+    border: none;    
+    padding: 0;
+}
+
+
+/* MIDDLE */
+.middle{
+    position: absolute;
+}
+.middle h4{
+    font: 400 16px var(--font2);
+    letter-spacing: 0px;
+    color: #323232;
+    text-align: right;
+}
+
+.middle p{
+    font: 400 15px var(--font);
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    text-align: right;
+}
